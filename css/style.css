@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "variables.css";
+/*components*/
+@import "components/status-bar.css"; 
+@import "components/user-components.css";
+@import "components/screen-header.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+/*screen*/
+@import "screen/index.css";
+@import "screen/friends.css";
+
+body{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+.others-body{
+    background-image: linear-gradient(to bottom, rgb(75, 73, 73), white);
+    height: 100vh;
+}

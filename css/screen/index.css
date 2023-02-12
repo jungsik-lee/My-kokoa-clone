@@ -1,0 +1,91 @@
+.index-body{
+    background-image: linear-gradient(to bottom, black, white);
+    height: 100vh;
+}
+.welcome-header{
+    margin-top:170px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.welcome-header__title{
+    position: relative;
+    font-size:25px;
+    margin-bottom: 10px;
+}
+.welcome-header__title i:first-child{
+    position: absolute;
+    color:yellow;
+    bottom:80px;
+    left:200px;
+    font-size: 80px;
+}
+.welcome-header__title i:nth-child(2){
+    position: absolute;
+    color:skyblue;
+    bottom:25px;
+    left:30px;
+    font-size: 35px;
+}
+.welcome-header__content{
+    position: relative;
+}
+.welcome-header__content i{
+    position: absolute;
+    color:skyblue;
+    right:30px;
+    top:35px;
+    font-size:30px;
+}
+.login-form{
+    margin:100px 20px 0 20px;
+}
+.login-form__column{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form__column input{
+    border:none;
+    height:50px;
+    margin-bottom: 20px;
+}
+
+.login-form__column input:last-child{
+    margin-top:20px;
+    font-size:18px;
+    background-color: skyblue;
+    box-shadow: 0 0 10px 1px rgb(6, 131, 209);
+}
+.login-form__column input::placeholder{
+    font-size:15px;
+}
+
+.login-form__column  input:not([type="submit"]){
+    transition: box-shadow .3s ease-in-out;
+}
+.login-form__column  input[type="email"]:focus{
+    box-shadow: 0 0 10px 1px;
+}
+
+.login-form__column  input[type="password"]:focus{
+    box-shadow: 0 0 10px 1px;
+}
+.login-form__service{
+    font-size: 14px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.login-form__service__column{
+    width:33%;
+}
+.login-form__service__column:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.login-form__service__column:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
