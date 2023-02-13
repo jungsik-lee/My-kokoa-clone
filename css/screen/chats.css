@@ -1,0 +1,35 @@
+.advertisement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+    font-size:17px;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+.advertisement img{
+    animation: rotateY 2s infinite ease-in-out;
+    width:50px;
+    margin-right:10px;
+}
+
+@keyframes rotateY {
+    0%{
+        rotate(0);
+    }
+    50%{
+        transform: rotate3d(1, 0, 0, 180deg);
+    }
+    100%{
+        rotate(0);
+    }
+}
+
+.main-screen{
+    padding:0px var(--horizontal-space);
+    animation: fade 1s ease-in-out;
+}
+

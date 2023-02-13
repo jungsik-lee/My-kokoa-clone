@@ -50,3 +50,7 @@
     margin-bottom: 20px;
 }
 
+
+.friends-screen{
+    animation: fade 1s ease-in-out;
+}
